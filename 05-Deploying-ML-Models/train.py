@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split, KFold
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, roc_curve, roc_auc_score, auc
+from sklearn.pipeline import make_pipeline
 
 # Import dataset
 df = pd.read_csv(
@@ -63,6 +64,8 @@ categorical = [
     'paperlessbilling',
     'paymentmethod',
 ]
+
+
 
 ## One-Hot_encoding with DictVectorizor
 dv = DictVectorizer(sparse=False)
