@@ -1,0 +1,14 @@
+[project]
+name = "05-deploying-ml-models"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.162.0",
+    "scikit-learn>=1.9.1",
+    "uvicorn>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "requests>=2.34.2",
+]
