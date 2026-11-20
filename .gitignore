@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# files
+08-NN_for_Non_Tabluar_data/data/
+08-NN_for_Non_Tabluar_data/models/
