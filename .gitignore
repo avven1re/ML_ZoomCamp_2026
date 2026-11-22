@@ -220,3 +220,5 @@ __marimo__/
 # files
 08-NN_for_Non_Tabluar_data/data/
 08-NN_for_Non_Tabluar_data/models/
+08-NN_for_Non_Tabluar_data/homework/data/
+.DS_Store
