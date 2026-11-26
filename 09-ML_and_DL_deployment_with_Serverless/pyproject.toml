@@ -1,0 +1,28 @@
+[project]
+name = "09-ml-and-dl-deployment-with-serverless"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MW Yang", email = "56329167+avven1re@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+09-ml-and-dl-deployment-with-serverless = "_09_ml_and_dl_deployment_with_serverless:main"
+
+[tool.uv.build-backend]
+module-name = "_09_ml_and_dl_deployment_with_serverless"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "boto3[crt]>=1.44.9",
+    "requests>=2.34.2",
+]
